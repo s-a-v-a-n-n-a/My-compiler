@@ -1,0 +1,12 @@
+CURRENT STATE OF STACK
+THE NEWS FROM DESTRUCTOR
+EVERYTHING IS OKAY
+Current capacity: 4
+Current size    : 0
+Current address of the stack : 00000229676D3750
+Current address of the buffer: 00000229676D6940
+[   2] : NAN (POISON)
+[   3] : NAN (POISON)
+Current hash of the buffer: 524289
+Current hash of the stack : 4586
+

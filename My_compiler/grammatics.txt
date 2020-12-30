@@ -1,0 +1,35 @@
+
+/*
+	GLOBAL := FUNC_DECL+
+	
+	FUNC_DECL := "хата" IDENTIFIER (("з" PARAM)("з" PARAM)* "всерединi")? BLOCK
+	FUNC_CALL := "викличе" IDENTIFIER ("маэ" PARAM ("з" PARAM)* "в хате")?
+	
+	IDENTIFIER := [a-zA-Zа-яА-Я_][a-zA-Zа-яА-Я0-9_]*
+	PARAM := MATH_AND
+	
+	BLOCK := ("хай" LINE)*
+	
+	LINE := VAR_DECL | MATH_COMP | CYCLE | IF | UNARY | ASSIGNMENT | INPUT
+	
+	VAR_DECL := "буде" IDENTIFIER
+	
+	MATH_AND  := MATH_OR (("и") MATH_OR)*
+	MATH_OR   := MATH_COMP (("или") MATH_COMP)*
+	MATH_COMP := MATH_EXPR (("нi")?(">" | "<" | "=" | "!") MATH_EXPR)*
+	MATH_EXPR := MATH_TERM (("додай" | "вiдкуси") MATH_TERM)*
+	MATH_TERM := MATH_FACTOR (("*" | "/") MATH_FACTOR)*
+
+	MATH_FACTOR := IDENTIFIER | NUMB | FUNC_CALL
+	NUMB := [1-9][0-9]*
+
+	CYCLE := "покащо" MATH_COMP BLOCK
+	IF    := "якщо" MATH_COMP BLOCK
+
+	UNARY := ("тiкае звiдси" | "побачит") MATH_AND
+	ONPUT := "даст сюды"
+
+	ASSIGNMENT := IDENTIFIER "як" MATH_COMP | INPUT
+
+	IGNORE := "це" LINE_COMMENT | "шо це таке" BLOCK_COMMENT "а ось таке"
+*/

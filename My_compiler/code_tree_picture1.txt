@@ -1,0 +1,706 @@
+digraph
+{
+  rankdir = TB;
+  nod0[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent -1</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 0</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 6</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">Linker</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod1[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 0</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 1</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 5</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">func</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">2</td>
+          <td bgcolor = "HotPink">3</td>
+      </tr>
+      </table>>];
+  nod2[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 1</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 2</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 7</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">param 0</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod3[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 1</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 3</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 6</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">Linker</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">4</td>
+          <td bgcolor = "HotPink">7</td>
+      </tr>
+      </table>>];
+  nod4[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 3</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key double, 6</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">5</td>
+          <td bgcolor = "HotPink">6</td>
+      </tr>
+      </table>>];
+  nod5[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 4</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 5</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 0</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">-1</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod6[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 4</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 6</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 1</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">var</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod7[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 3</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 7</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 6</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">Linker</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">8</td>
+          <td bgcolor = "HotPink">11</td>
+      </tr>
+      </table>>];
+  nod8[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 7</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 8</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key =, 7</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">9</td>
+          <td bgcolor = "HotPink">10</td>
+      </tr>
+      </table>>];
+  nod9[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 8</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 9</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 1</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">var</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod10[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 8</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 10</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key let, 1</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod11[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 7</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 11</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 6</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">Linker</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">12</td>
+          <td bgcolor = "HotPink">15</td>
+      </tr>
+      </table>>];
+  nod12[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 11</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 12</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key double, 6</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">13</td>
+          <td bgcolor = "HotPink">14</td>
+      </tr>
+      </table>>];
+  nod13[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 12</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 13</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 0</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">-1</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod14[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 12</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 14</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 1</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">var</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod15[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 11</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 15</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 6</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">Linker</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">16</td>
+          <td bgcolor = "HotPink">19</td>
+      </tr>
+      </table>>];
+  nod16[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 15</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 16</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key =, 7</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">17</td>
+          <td bgcolor = "HotPink">18</td>
+      </tr>
+      </table>>];
+  nod17[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 16</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 17</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 1</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">var</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod18[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 16</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 18</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key let, 1</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod19[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 15</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 19</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 6</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">Linker</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">20</td>
+          <td bgcolor = "HotPink">23</td>
+      </tr>
+      </table>>];
+  nod20[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 19</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 20</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key double, 6</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">21</td>
+          <td bgcolor = "HotPink">22</td>
+      </tr>
+      </table>>];
+  nod21[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 20</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 21</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 0</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">-1</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod22[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 20</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 22</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 1</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">var</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod23[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 19</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 23</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 6</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">Linker</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">24</td>
+          <td bgcolor = "HotPink">27</td>
+      </tr>
+      </table>>];
+  nod24[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 23</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 24</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key =, 7</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">25</td>
+          <td bgcolor = "HotPink">26</td>
+      </tr>
+      </table>>];
+  nod25[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 24</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 25</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 1</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">var</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod26[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 24</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 26</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key let, 1</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod27[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 23</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 27</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 6</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">Linker</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">28</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod28[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 27</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 28</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key if, 5</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">30</td>
+          <td bgcolor = "HotPink">32</td>
+      </tr>
+      </table>>];
+  nod30[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 28</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 30</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 3</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">comp Equal</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">29</td>
+          <td bgcolor = "HotPink">31</td>
+      </tr>
+      </table>>];
+  nod29[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 28</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 29</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 1</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">var</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod31[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 30</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 31</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 0</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">0</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod32[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 28</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 32</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 6</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">Linker</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">33</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod33[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 32</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 33</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 4</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">key if, 5</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">35</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod35[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 33</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 35</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 3</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">comp Equal</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">34</td>
+          <td bgcolor = "HotPink">36</td>
+      </tr>
+      </table>>];
+  nod34[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 33</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 34</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 1</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">var</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+  nod36[shape="none", label = <<table border = "0" cellborder = "1" cellspacing = "0">
+      <tr>
+      <td colspan = "2" bgcolor = "HotPink">parent 35</td>
+    </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">index 36</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">type 0</td>
+     </tr>
+      <tr>
+      <td colspan = "2" bgcolor = "#FEC9E3">0</td>
+     </tr>
+      <tr>
+          <td bgcolor = "HotPink">-1</td>
+          <td bgcolor = "HotPink">-1</td>
+      </tr>
+      </table>>];
+         nod1->nod2
+      nod4->nod5
+      nod4->nod6
+      nod3->nod4
+      nod8->nod9
+      nod8->nod10
+      nod7->nod8
+      nod12->nod13
+      nod12->nod14
+      nod11->nod12
+      nod16->nod17
+      nod16->nod18
+      nod15->nod16
+      nod20->nod21
+      nod20->nod22
+      nod19->nod20
+      nod24->nod25
+      nod24->nod26
+      nod23->nod24
+      nod30->nod29
+      nod30->nod31
+      nod28->nod30
+      nod35->nod34
+      nod35->nod36
+      nod33->nod35
+      nod32->nod33
+      nod28->nod32
+      nod27->nod28
+      nod23->nod27
+      nod19->nod23
+      nod15->nod19
+      nod11->nod15
+      nod7->nod11
+      nod3->nod7
+      nod1->nod3
+      nod0->nod1
+}

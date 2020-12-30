@@ -1,0 +1,454 @@
+CALL #043f044004350437043804340435043d04420430
+HLT
+
+043f044004350437043804340435043d04420430:
+IN
+PUSH 1
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+IN
+PUSH 2
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+IN
+PUSH 3
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+PUSH 0
+PUSH 1
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JE #jump_label_0
+PUSH 0
+JMP #jump_label_1
+jump_label_0:
+PUSH 1
+JMP #jump_label_1
+
+jump_label_1:
+PUSH 0
+JE #jump_label_2
+PUSH 0
+PUSH 2
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JE #jump_label_3
+PUSH 0
+JMP #jump_label_4
+jump_label_3:
+PUSH 1
+JMP #jump_label_4
+
+jump_label_4:
+PUSH 0
+JE #jump_label_5
+PUSH 0
+PUSH 3
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JE #jump_label_6
+PUSH 0
+JMP #jump_label_7
+jump_label_6:
+PUSH 1
+JMP #jump_label_7
+
+jump_label_7:
+PUSH 0
+JE #jump_label_8
+PUSH 1e+08
+OUT
+PUSH 3
+REV
+POP
+JMP #jump_label_8
+
+jump_label_8:
+PUSH 0
+PUSH 3
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JB #jump_label_9
+PUSH 0
+JMP #jump_label_10
+jump_label_9:
+PUSH 1
+JMP #jump_label_10
+
+jump_label_10:
+PUSH 0
+PUSH 3
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JA #jump_label_11
+PUSH 0
+JMP #jump_label_12
+jump_label_11:
+PUSH 1
+JMP #jump_label_12
+
+jump_label_12:
+PUSH 1
+JE #jump_label_13
+PUSH 1
+JE #jump_label_14
+PUSH 0
+JMP #jump_label_15
+jump_label_13:
+POP
+jump_label_14:
+PUSH 1
+jump_label_15:
+PUSH 0
+JE #jump_label_16
+PUSH 0
+REV
+POP
+JMP #jump_label_16
+
+jump_label_16:
+JMP #jump_label_5
+
+jump_label_5:
+PUSH 0
+PUSH 2
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JB #jump_label_17
+PUSH 0
+JMP #jump_label_18
+jump_label_17:
+PUSH 1
+JMP #jump_label_18
+
+jump_label_18:
+PUSH 0
+PUSH 2
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JA #jump_label_19
+PUSH 0
+JMP #jump_label_20
+jump_label_19:
+PUSH 1
+JMP #jump_label_20
+
+jump_label_20:
+PUSH 1
+JE #jump_label_21
+PUSH 1
+JE #jump_label_22
+PUSH 0
+JMP #jump_label_23
+jump_label_21:
+POP
+jump_label_22:
+PUSH 1
+jump_label_23:
+PUSH 0
+JE #jump_label_24
+PUSH 2
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH 3
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH -1
+MUL
+DIV
+OUT
+PUSH 1
+REV
+POP
+JMP #jump_label_24
+
+jump_label_24:
+JMP #jump_label_2
+
+jump_label_2:
+PUSH 0
+PUSH 1
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JB #jump_label_25
+PUSH 0
+JMP #jump_label_26
+jump_label_25:
+PUSH 1
+JMP #jump_label_26
+
+jump_label_26:
+PUSH 0
+PUSH 1
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JA #jump_label_27
+PUSH 0
+JMP #jump_label_28
+jump_label_27:
+PUSH 1
+JMP #jump_label_28
+
+jump_label_28:
+PUSH 1
+JE #jump_label_29
+PUSH 1
+JE #jump_label_30
+PUSH 0
+JMP #jump_label_31
+jump_label_29:
+POP
+jump_label_30:
+PUSH 1
+jump_label_31:
+PUSH 0
+JE #jump_label_32
+PUSH 3
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH 1
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH 4
+MUL
+MUL
+PUSH 2
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH 2
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+MUL
+SUB
+PUSH 4
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+PUSH 0
+PUSH 4
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JB #jump_label_33
+PUSH 0
+JMP #jump_label_34
+jump_label_33:
+PUSH 1
+JMP #jump_label_34
+
+jump_label_34:
+PUSH 0
+JE #jump_label_35
+PUSH 0
+OUT
+PUSH 0
+REV
+POP
+JMP #jump_label_35
+
+jump_label_35:
+PUSH 0
+PUSH 5
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+PUSH 0
+PUSH 6
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+PUSH 4
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH 7
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+PUSH 4
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+SQRT
+PUSH 5
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+PUSH 2
+PUSH 1
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+MUL
+PUSH 1
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+PUSH 0
+PUSH 4
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JE #jump_label_36
+PUSH 0
+JMP #jump_label_37
+jump_label_36:
+PUSH 1
+JMP #jump_label_37
+
+jump_label_37:
+PUSH 0
+JE #jump_label_38
+PUSH 1
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH 2
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH -1
+MUL
+DIV
+OUT
+PUSH 1
+REV
+POP
+JMP #jump_label_38
+
+jump_label_38:
+PUSH 0
+PUSH 4
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+JA #jump_label_39
+PUSH 0
+JMP #jump_label_40
+jump_label_39:
+PUSH 1
+JMP #jump_label_40
+
+jump_label_40:
+PUSH 0
+JE #jump_label_41
+PUSH 5
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH 2
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH -1
+MUL
+SUB
+PUSH 8
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+PUSH 5
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH 2
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH -1
+MUL
+ADD
+PUSH 9
+PUSH RDX
+ADD
+POP RCX
+POP [RCX]
+PUSH 1
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH 8
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+DIV
+OUT
+PUSH 1
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+PUSH 9
+PUSH RDX
+ADD
+POP RCX
+PUSH [RCX]
+DIV
+OUT
+PUSH 2
+REV
+POP
+JMP #jump_label_41
+
+jump_label_41:
+JMP #jump_label_32
+
+jump_label_32:
+REV
