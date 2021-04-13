@@ -13,7 +13,7 @@ Compiler made on binary tree. Type of reading data is recursive descent.
 I tested my program on solving square equation. That time my compiler did not have function sqrt in it so it calculates square with binary search.
 ![program_example](https://github.com/s-a-v-a-n-n-a/My-compiler/blob/main/Examples/square_equation_program.png)
 ***
-[asseblye_code_example](https://github.com/s-a-v-a-n-n-a/My-compiler/blob/main/Examples/asm.xax)
+[assembly_code_example](https://github.com/s-a-v-a-n-n-a/My-compiler/blob/main/Examples/asm.xax)
 ---------------------------
 I'm going to develop my language compiler and make it better.
 
