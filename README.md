@@ -17,9 +17,7 @@ I tested my program on solving square equation. That time my compiler did not ha
 ---------------------------
 I'm going to develop my language compiler and make it better.
 
-### Things to do::
-***
-####else structure
-***
-####while-else structure
-</li>
+Things to do:
+-----------------
+* else structure
+* while-else structure
