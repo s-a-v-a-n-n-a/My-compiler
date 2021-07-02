@@ -9,6 +9,7 @@ Compiler made on binary tree. Type of reading data is recursive descent.
 **AN EXAMPLE OF PROGRAM**
 ---------------------------
 I tested my program on solving square equation. That time my compiler did not have function sqrt in it so it calculates square with binary search.
+
 <img src = "Examples/square_equation_program.png" alt="Mandelbrot example" width="600">
 ***
 [assembly_code_example](https://github.com/s-a-v-a-n-n-a/My-compiler/blob/main/Examples/asm.xax)
