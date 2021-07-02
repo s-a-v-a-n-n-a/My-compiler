@@ -11,12 +11,12 @@ Compiler made on binary tree. Type of reading data is recursive descent.
 I tested my program on solving square equation. That time my compiler did not have function sqrt in it so it calculates square with binary search.
 
 <img src = "Examples/square_equation_program.png" alt="Mandelbrot example" width="600">
-***
-[assembly_code_example](https://github.com/s-a-v-a-n-n-a/My-compiler/blob/main/Examples/asm.xax)
----------------------------
+
+[Some assembly_code_example](https://github.com/s-a-v-a-n-n-a/My-compiler/blob/main/Examples/asm.xax)
+
 I'm going to develop my language compiler and make it better.
 
-Things to do:
+**Things to do:**
 -----------------
 * else structure
 * while-else structure
